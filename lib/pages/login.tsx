@@ -1,5 +1,5 @@
 import { Auth } from '@supabase/auth-ui-react';
-import { supabase } from '../lib/supabase';
+import { supabase } from '../../lib/supabase';
 import { ThemeSupa } from '@supabase/auth-ui-shared';
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
