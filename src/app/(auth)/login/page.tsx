@@ -1,4 +1,4 @@
-'use client'; // Must be first line
+"use client"; // Must be first line
 
 import { Auth } from '@supabase/auth-ui-react';
 import { supabase } from '@/lib/supabase';
