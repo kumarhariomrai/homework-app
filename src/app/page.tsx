@@ -1,3 +1,5 @@
+'use client'; // Add this line at the very top
+
 import { Auth } from '@supabase/auth-ui-react';
 import { supabase } from '../../lib/supabase';
 import { ThemeSupa } from '@supabase/auth-ui-shared';
@@ -37,4 +39,4 @@ export default function Login() {
       </div>
     </div>
   );
-}
+}    
